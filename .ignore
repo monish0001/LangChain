@@ -1,0 +1,51 @@
+# Project ignore file (not a gitignore) — per user request
+
+# Common Python project ignores
+
+**pycache**/
+_.py[cod]
+_.pyo
+
+# Virtual environments
+
+venv/
+.venv/
+ENV/
+
+# Environment files
+
+.env
+.env.\*
+
+# Editor directories
+
+.vscode/
+.idea/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Logs and databases
+
+_.log
+_.sqlite3
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Model/checkpoint files
+
+_.ckpt
+_.pth
+\*.bin
+
+# Local settings
+
+local_settings.py
+
+# Ignore node modules if present
+
+node_modules/
