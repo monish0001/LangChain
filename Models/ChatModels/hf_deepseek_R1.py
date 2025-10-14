@@ -12,7 +12,7 @@ llm = HuggingFaceEndpoint(
     max_new_tokens=512,
     do_sample=False,
     repetition_penalty=1.03,
-    provider="auto",  # let Hugging Face choose the best provider for you
+
 )
 
 chat_model = ChatHuggingFace(llm=llm)
